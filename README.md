@@ -8,8 +8,10 @@ A simple and interactive Grocery List web app that helps users organize and mana
 ✔️ Delete items from the list
 ✔️ Color-coded categories for easy identification
 
-## 🎥 Demo
-🚀 Live Demo: (https://RamaLalithya.github.io/Grocery-List/) 
+## 🎥 Demo 
+🚀 Live Demo: (https://ramalalithya.github.io/Grocery-List/) 
+![Demo GIF](demo.gif.gif)
+
 
 ## 📸 Screenshots
 !screenshot.png 
