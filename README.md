@@ -14,7 +14,8 @@ A simple and interactive Grocery List web app that helps users organize and mana
 
 
 ## 📸 Screenshots
-!screenshot.png 
+![App Screenshot](screenshot.png.png)
+
 ## 🛠️ Tech Stack
 - **Frontend:** HTML, CSS, JavaScript  
 
