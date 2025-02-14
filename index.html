@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Grocery List</h1>
+        
+        <!-- Category Selection -->
+        <label for="category">Select Category:</label>
+        <select id="category">
+            <option value="fruits">Fruits</option>
+            <option value="vegetables">Vegetables</option>
+            <option value="dairy">Dairy</option>
+            <option value="dairy">Meat</option>
+            <option value="dairy">Seafood</option>
+            <option value="dairy">Bread & Bakery</option>
+            <option value="dairy">Grains</option>
+            <option value="dairy">Snacks</option>
+            <option value="dairy">Condiments</option>
+            <option value="dairy">Beverages</option>
+            <option value="others">Others</option>
+        </select>
+        
+        <!-- Item Input -->
+        <input type="text" id="item" placeholder="Enter grocery item">
+        <button onclick="addItem()">Add Item</button>
+
+        <!-- Grocery List Table -->
+        <table id="grocery-list">
+            <thead>
+                <tr>
+                    <th>Category</th>
+                    <th>Item</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- List items will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
